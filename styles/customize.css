@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+    font-family: "Booter - Zero Zero";
+    src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+         url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1620646233562-f2a31ad24425?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHN0YXJzJTIwYmxhY2t8ZW58MHx8MHx8&w=1000&q=80);
+    background-size: cover;
+    
+}
+.navbar{
+    overflow: hidden;
+}
+.logo{
+    display:block;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 75px;
+    border-radius: 50%;
+    border-color: #FFD32D;
+    border-width: 10px;
+}
+.content-section {
+    margin: 1em;
+
+}
+
+.container {
+    max-width: 900px;
+    
+    padding: 0 1.5em;
+}
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    padding-left: 60px;
+    color:white;
+    font-size: 2.5em;
+}
+.section-header-1 {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color:black;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+.all{
+    display:flex;
+}
+.items{
+    flex:1;
+}
+.last{
+   background-color: white;
+    margin-right: 20px;
+    border:2px solid grey;
+}
+
+.main-footer {
+    background-color: #56CCF2;
+    color: white;
+    padding: .25em 0;
+}
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #56CCF2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #f8c81a;
+}
+
+
+.shop-item {
+    margin: 30px;
+    padding:10px;
+}
+.shop-item-1 {
+  margin: 30px;
+  padding-left:120px;
+
+}
+.shop-item-2 {
+    margin: 30px;
+   margin-block-end: 50px;
+  
+  }
+
+.shop-item-button{
+    background-color: #FFD32D;
+    color:black;
+}
+.shop-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(181, 181, 171);
+    margin-bottom: 15px;
+}
+.shop-item-title-1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(181, 181, 171);
+    margin-bottom: 15px;
+   
+    
+}
+
+.shop-item-title-2 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: rgb(181, 181, 171);
+    margin-bottom: 15px;
+   
+    
+}
+.shop-item-image {
+    height: 150px;
+    width:150px;
+   
+}
+.shop-item-image-1 {
+    
+    height: 150px;
+    width:150px;
+    
+}
+.shop-item-image-2 {
+    
+    height: 150px;
+    width:150px;
+    
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    flex-grow: 1;
+    color: rgb(123, 117, 56);
+    padding-right:15px;
+    margin-left:-15px;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: rgb(12, 11, 11);
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+.btn-purchase:hover {
+    background-color: #f4c108;
+}
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+    background-color: #FFD32D;
+    padding:10px;
+    color:rgb(64, 29, 29)
+}
+.footer{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg);
+    margin-top: 50px;
+    margin-bottom:-20px;
+    height:200px;
+    display: flex;
+    color:#FFD32D;
+    
+}
+
+.contact{
+    display: 1;
+   margin-left: 50px;
+    
+    
+}
+.email{
+    margin-left: 400px;
+    opacity: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_img{
+    padding-left: 350px;
+    float:right;
+}

@@ -1,0 +1,122 @@
+body{
+margin-top: 0px;
+margin-left: 0px;
+
+background-image: url(https://www.friedmansideasandinnovations.com/wp-content/uploads/2018/05/fancy-hamburger-on-black-table.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: luminosity;
+min-width: 800px;
+}
+
+.logo{
+    display:block;
+    align-items: center;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 125px;
+    height: 75px;
+    border-radius: 50%;
+    border-color: #FFD32D;
+    border-width: 10px;
+}
+
+.blog{
+    padding-left: 150px;
+    padding-top: 100px;
+    font-family: 'Oswald', sans-serif;
+    color:whitesmoke;
+    font-size: large;
+    height:400px;
+}
+.title{
+    padding-top:50px;
+    padding-left: 50px;
+}
+.navbar{
+    overflow: hidden;
+}
+.customize{
+    display:flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    box-shadow: 5px;
+    box-sizing: border-box;
+    
+}
+.custom_text{
+    float:right;
+    flex:1;
+    background-color: aliceblue;
+    height:350px;
+    padding-left: 50px;
+    padding-right:50px;
+    
+}
+.custom_img{
+    float:left;   
+}
+.custom_btn{
+    background-color: red;
+    border-radius: 5px;
+    color:white;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top:50px;
+}
+.order{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+    box-shadow: 5px;
+    box-sizing: border-box;
+    background-image: url(https://s3-media0.fl.yelpcdn.com/bphoto/TxL9F5ZskStjedtk3oNbQA/348s.jpg);
+   padding-left: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 350px;
+}
+.t_order{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.order_btn{
+    background-color: red;
+    border-radius: 5px;
+    color:white;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top:50px;
+}
+.footer{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/A_black_image.jpg/640px-A_black_image.jpg);
+    margin-top: 50px;
+    margin-bottom:-20px;
+    height:200px;
+    display: flex;
+    color: #FFD32D;
+}
+.contact{
+    display: 1;
+   margin-left: 50px;
+    opacity: 100%;
+}
+.email{
+    margin-left: 400px;
+    opacity: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_img{
+    padding-left: 350px;
+    float:right;
+}
